@@ -127,6 +127,7 @@ class LuaTypeCallable(LuaType):
             "id": self.id,
             "arg_types": self.arg_types,
             "return_types": self.return_types,
+            "arg_names": self.arg_names,
         }
 
 
